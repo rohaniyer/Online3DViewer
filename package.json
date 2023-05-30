@@ -1,6 +1,6 @@
 {
 	"name": "painting-3d-viewer",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Online 3D Viewer: Forked to allow left-click raycasting",
 	"license": "MIT",
 	"type": "module",
