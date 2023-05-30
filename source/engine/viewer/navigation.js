@@ -388,7 +388,7 @@ export class Navigation
 		let mouseButton = this.mouse.GetButton ();
 
 		let navigationType = NavigationType.None;
-		if (mouseButton === 1) {
+		if (mouseButton === 2) {
 			if (ev.ctrlKey) {
 				navigationType = NavigationType.Zoom;
 			} else if (ev.shiftKey) {
@@ -396,7 +396,7 @@ export class Navigation
 			} else {
 				navigationType = NavigationType.Orbit;
 			}
-		} else if (mouseButton === 2 || mouseButton === 3) {
+		} else if (mouseButton === 3) {
 			navigationType = NavigationType.Pan;
 		}
 

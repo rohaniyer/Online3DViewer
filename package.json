@@ -1,11 +1,11 @@
 {
-	"name": "online-3d-viewer",
-	"version": "0.8.24",
-	"description": "Online 3D Viewer",
+	"name": "painting-3d-viewer",
+	"version": "0.0.1",
+	"description": "Online 3D Viewer: Forked to allow left-click raycasting",
 	"license": "MIT",
 	"type": "module",
 	"main": "./build/engine/o3dv.module.js",
-	"repository": "github:kovacsv/Online3DViewer",
+	"repository": "github:rohaniyer/Online3DViewer",
 	"keywords": [
 		"3d",
 		"viewer",
