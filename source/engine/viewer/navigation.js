@@ -343,7 +343,6 @@ export class Navigation {
     let mouseButton = this.mouse.GetButton();
 
     let navigationType = NavigationType.None;
-    console.log("mouseButton: " + mouseButton);
     if (mouseButton === 3) {
       if (ev.ctrlKey) {
         navigationType = NavigationType.Zoom;
